@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
   // console.log('scr.parent',scr.parentNode);
   // scr.parentNode.removeChild(scr);
   document.head.prepend(script);
-  document.body.appendChild('<script type="text/javascript" src="https://www.heavybit.com/wp-content/themes/heavybit/assets/js/popcorn.min.js"></script>');
-  document.body.appendChild('<script src="https://vjs.zencdn.net/6.0.1/video.js"></script>');
+  // document.body.appendChild('<script type="text/javascript" src="https://www.heavybit.com/wp-content/themes/heavybit/assets/js/popcorn.min.js"></script>');
+  // document.body.appendChild('<script src="https://vjs.zencdn.net/6.0.1/video.js"></script>');
 });
 
 // Space key function replacement
