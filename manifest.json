@@ -1,5 +1,5 @@
 {
-  "name": "JAMstackRadio",
+  "name": "JAMstackRadioUtility",
   "version": "1",
   "manifest_version": 2,
   "description": "JAMstackRadioでSpaceキーで再生ボタンのトグルを可能にします",
