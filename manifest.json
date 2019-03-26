@@ -6,6 +6,6 @@
   "content_scripts": [{
     "run_at" : "document_start",
     "matches": ["https://www.heavybit.com/library/podcasts/jamstack-radio/*"],
-    "js": ["main.js"]
+    "js": ["content.js"]
   }]
 }
