@@ -1,19 +1,22 @@
 {
-  "name": "heavybit-podcasts-extension",
+  "name": "heavybit-extension-for-english-learners",
   "version": "1.0.0",
-  "description": "AMstack Radioなど、Heavybit Podcastsのページを使いやすくするChrome拡張",
+  "description": "JAMstack Radioなど、Heavybit Podcastsのページを使いやすくするChrome拡張",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:noracast/heavybit-podcasts-extension.git"
+    "url": "git@github.com:noracast/heavybit-extension.git"
   },
   "author": "Naokazu Terada",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com:noracast/heavybit-podcasts-extension.git/issues"
+    "url": "https://github.com:noracast/heavybit-extension.git/issues"
   },
-  "homepage": "https://github.com:noracast/heavybit-podcasts-extension.git#readme"
+  "homepage": "https://github.com:noracast/heavybit-extension.git#readme",
+  "devDependencies": {
+    "zip-dir": "^1.0.2"
+  }
 }

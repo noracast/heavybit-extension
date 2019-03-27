@@ -1,8 +1,8 @@
 {
-  "name": "JAMstackRadioUtility",
-  "version": "1",
+  "name": "Heavybit extension for English learners",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "description": "JAMstackRadioでSpaceキーで再生ボタンのトグルを可能にします",
+  "description": "Heavybit Podcastsのページを英語学習用に使いやすくします",
   "content_scripts": [{
     "run_at" : "document_start",
     "matches": ["https://www.heavybit.com/library/podcasts/*/ep-*"],
