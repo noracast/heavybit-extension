@@ -1,8 +1,6 @@
 # JAMstackRadioUtility
 
-[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)を英語学習教材として使う際に便利な機能を追加するChrome拡張
-
-正確には、[Heavybit Podcast](https://www.heavybit.com/library/podcasts)のページであれば動作可能です。
+[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)など、[Heavybit Podcasts](https://www.heavybit.com/library/podcasts)のページに機能追加するChrome拡張。英語学習教材として使う際に便利な機能の追加・改変をします。
 
 # 機能
 
