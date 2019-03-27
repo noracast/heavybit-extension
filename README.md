@@ -2,7 +2,7 @@
 
 <a href="https://chrome.google.com/webstore/detail/heavybit-extension-for-en/ahfgdgmheoejjllbgnkegimdiajihbee" target="_blank"><img src="./_assets/ChromeWebStore_BadgeWBorder_v2_496x150.png" width="248" height="75" alt="Available in the Chrome Web Store"></a>
 
-[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)などのテック系ポッドキャスト番組を配信している[Heavybit Podcasts](https://www.heavybit.com/library/podcasts)のエピソードページに、英語学習教材として使う際に便利な機能の追加・改変します。
+[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)などのテック系ポッドキャスト番組を配信している[Heavybit Podcasts](https://www.heavybit.com/library/podcasts)のエピソードページに、英語学習教材として使う際に便利な機能の追加・UIの改変をします。
 
 # 機能
 
