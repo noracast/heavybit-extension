@@ -12,6 +12,9 @@
 
 # 使い方
 
-1. インストール手順は[この辺](https://support.google.com/chrome/a/answer/2714278?hl=ja)を参考にしてください
+1. インストール
+    - [Chrome Web Store](https://chrome.google.com/webstore/detail/heavybit-extension-for-en/ahfgdgmheoejjllbgnkegimdiajihbee)
+    - 手動の場合は[この辺](https://support.google.com/chrome/a/answer/2714278?hl=ja)を参考に
 2. [JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)のページを開く
-3. 機能が使えるはずです。再生スピードの変更処理は条件により失敗することもあるので駄目な時はリロードを試してください
+3. 機能が使えるはずです！
+    - 再生スピードの変更処理は条件により失敗することもあるので駄目な時はリロードを試してください
