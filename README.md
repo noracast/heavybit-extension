@@ -1,8 +1,8 @@
 # Heavybit extension for English learners
 
-[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)など、[Heavybit Podcasts](https://www.heavybit.com/library/podcasts)のページに機能追加するChrome拡張。英語学習教材として使う際に便利な機能の追加・改変をします。
+<a href="https://chrome.google.com/webstore/detail/heavybit-extension-for-en/ahfgdgmheoejjllbgnkegimdiajihbee" target="_blank"><img src="./_assets/ChromeWebStore_BadgeWBorder_v2_496x150.png" width="248" height="75" alt="Available in the Chrome Web Store"></a>
 
-[![Available in the Chrome Web Store](./_assets/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/heavybit-extension-for-en/ahfgdgmheoejjllbgnkegimdiajihbee)
+[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)などのテック系ポッドキャスト番組を配信している[Heavybit Podcasts](https://www.heavybit.com/library/podcasts)のページに、英語学習教材として使う際に便利な機能の追加・改変します。
 
 # 機能
 
