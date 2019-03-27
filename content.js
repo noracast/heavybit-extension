@@ -2,7 +2,9 @@
 let interval = setInterval(()=>{
   let player = document.getElementById('podcast-audio-player')
   if(player) {
-    player.setAttribute('data-setup', '{ "playbackRates": [0.75, 0.85, 1], "controlBar": { "fullscreenToggle": false, "timeDivider": false, "download": true } }')
+    let attr = JSON.parse(player.getAttribute('data-setup'))
+    attr.playbackRates = [0.7, 0.8, 1]
+    player.setAttribute('data-setup', JSON.stringify(attr))
     clearInterval(interval)
   }
 }, 1)
