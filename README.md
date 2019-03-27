@@ -18,3 +18,4 @@
 2. [JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)のページを開く
 3. 機能が使えるはずです！
     - 再生スピードの変更処理は条件により失敗することもあるので駄目な時はリロードを試してください
+    - JAM stack Radio 以外の番組でも有効です
