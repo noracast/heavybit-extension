@@ -20,7 +20,7 @@ let interval = setInterval(()=> {
 
     // Colored Name
     // ------------
-    const colors = ['74b49b', 'ff8b6a', '6b76ff', 'f9fd50', 'dd6b4d']
+    const colors = ['ff8b6a', '6b76ff', 'f9fd50', 'dd6b4d', '74b49b']
     let elements = document.querySelectorAll('strong')
     classnames = []
     elements.forEach((el)=> {
@@ -28,13 +28,13 @@ let interval = setInterval(()=> {
       let mathes = name.match(/^(\S+)/i)
       let classname = mathes[1].toLowerCase()
       el.classList.add(classname)
-      if(!classnames.includes(classname)) {
+      if(classname!='brian' && !classnames.includes(classname)) {
         classnames.push(classname)
       }
     })
-    let sheets = ''
+    let sheets = 'strong.brian { color: #33a1bb }\n'
     classnames.forEach((name, idx)=> {
-      sheets += `strong.${name} {color: #${colors[idx]}}\n`
+      sheets += `strong.${name} { color: #${colors[idx]} }\n`
     })
     let css = document.createTextNode(sheets)
     let style = document.createElement('style')
