@@ -16,6 +16,30 @@ let interval = setInterval(()=> {
         e.preventDefault()
         document.querySelector('.vjs-play-control').click()
       }
+    })
+
+    // Colored Name
+    // ------------
+    const colors = ['74b49b', 'ff8b6a', '6b76ff', 'f9fd50', 'dd6b4d']
+    let elements = document.querySelectorAll('strong')
+    classnames = []
+    elements.forEach((el)=> {
+      const name = el.innerHTML.slice(0,-1) // remove ':'
+      let mathes = name.match(/^(\S+)/i)
+      let classname = mathes[1].toLowerCase()
+      el.classList.add(classname)
+      if(!classnames.includes(classname)) {
+        classnames.push(classname)
+      }
+    })
+    let sheets = ''
+    classnames.forEach((name, idx)=> {
+      sheets += `strong.${name} {color: #${colors[idx]}}\n`
+    })
+    let css = document.createTextNode(sheets)
+    let style = document.createElement('style')
+    style.appendChild(css)
+    document.body.appendChild(style)
   }
 }, 1)
 
