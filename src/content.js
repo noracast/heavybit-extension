@@ -1,5 +1,3 @@
-const STEP_SECONDS = 7
-
 // Replace playback rates
 let interval = setInterval(()=>{
   let player = document.getElementById('podcast-audio-player')
@@ -18,17 +16,7 @@ let interval = setInterval(()=>{
   }
 }, 1)
 
-let code = document.createTextNode(`
-document.addEventListener('keydown', function(e) {
-  let player = videojs.players['podcast-audio-player']
-  if(e.keyCode==37) {
-    player.currentTime(player.currentTime() - ${STEP_SECONDS})
-  }
-  else if(e.keyCode==39) {
-    player.currentTime(player.currentTime() + ${STEP_SECONDS})
-  }
-});
-`);
+let code = document.createTextNode(require('./injection.js'));
 let script = document.createElement('script')
 script.appendChild(code)
 window.addEventListener('load', ()=> {
