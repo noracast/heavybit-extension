@@ -21,13 +21,11 @@ if (fileSystem.existsSync(secretsPath)) {
 var options = {
   mode: process.env.NODE_ENV || "development",
   entry: {
-    popup: path.join(__dirname, "src", "js", "popup.js"),
-    options: path.join(__dirname, "src", "js", "options.js"),
-    background: path.join(__dirname, "src", "js", "background.js")
+    content: path.join(__dirname, "src", "content.js")
   },
   output: {
     path: path.join(__dirname, "build"),
-    filename: "[name].bundle.js"
+    filename: "[name].js"
   },
   module: {
     rules: [
@@ -67,21 +65,21 @@ var options = {
         }))
       }
     }]),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "popup.html"),
-      filename: "popup.html",
-      chunks: ["popup"]
-    }),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "options.html"),
-      filename: "options.html",
-      chunks: ["options"]
-    }),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "background.html"),
-      filename: "background.html",
-      chunks: ["background"]
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: path.join(__dirname, "src", "popup.html"),
+    //   filename: "popup.html",
+    //   chunks: ["popup"]
+    // }),
+    // new HtmlWebpackPlugin({
+    //   template: path.join(__dirname, "src", "options.html"),
+    //   filename: "options.html",
+    //   chunks: ["options"]
+    // }),
+    // new HtmlWebpackPlugin({
+    //   template: path.join(__dirname, "src", "background.html"),
+    //   filename: "background.html",
+    //   chunks: ["background"]
+    // }),
     new WriteFilePlugin()
   ]
 };
