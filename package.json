@@ -4,7 +4,7 @@
   "description": "JAMstack Radioなど、Heavybit Podcastsのページを使いやすくするChrome拡張",
   "main": "index.js",
   "scripts": {
-    "build": "node utils/build.js"
+    "zip": "node utils/zip.js"
   },
   "repository": {
     "type": "git",
