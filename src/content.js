@@ -18,8 +18,6 @@ let interval = setInterval(()=>{
   }
 }, 1)
 
-// this.player_.currentTime(this.player_.currentTime() - STEP_SECONDS);
-
 let code = document.createTextNode(`
 document.addEventListener('keydown', function(e) {
   let player = videojs.players['podcast-audio-player']
