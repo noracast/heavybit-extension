@@ -28,7 +28,7 @@ let interval = setInterval(()=> {
     let elements = document.querySelectorAll('strong')
     classnames = []
     elements.forEach((el)=> {
-      const name = el.innerHTML.slice(0,-1) // remove ':'
+      const name = el.textContent.slice(0,-1) // remove ':'
       let mathes = name.match(/^(\S+)/i)
       let classname = mathes[1].toLowerCase()
       el.classList.add(classname)
