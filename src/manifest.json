@@ -1,7 +1,7 @@
 {
   "name": "Heavybit extension for English learners",
   "short_name": "Heavybit extension",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "manifest_version": 2,
   "description": "Heavybit Podcastsのページを英語学習用に使いやすくします",
   "content_scripts": [{
