@@ -36,5 +36,6 @@ yarn build
 yarn start
 
 # distディレクトリにzipファイル書き出し
+# zipファイルのversionはpackage.jsonから取得するので、manifest.jsonに揃えるように注意！
 yarn zip
 ```
