@@ -30,10 +30,12 @@ let interval = setInterval(()=> {
     elements.forEach((el)=> {
       const name = el.textContent.slice(0,-1) // remove ':'
       let mathes = name.match(/^(\S+)/i)
-      let classname = mathes[1].toLowerCase()
-      el.classList.add(classname)
-      if(classname!='brian' && !classnames.includes(classname)) {
-        classnames.push(classname)
+      if(mathes) {
+        let classname = mathes[1].replace(':','').toLowerCase()
+        el.classList.add(classname)
+        if(classname!='brian' && !classnames.includes(classname)) {
+          classnames.push(classname)
+        }
       }
     })
     let sheets = 'strong.brian { color: #33a1bb }\n'
