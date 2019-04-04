@@ -21,3 +21,19 @@
 3. 機能が使えるはずです！
     - 再生スピードの変更処理は条件により失敗することもあるので駄目な時はリロードを試してください
     - JAMstack Radio 以外の番組でも有効です
+
+# 開発
+
+```sh
+# パッケージインストール
+yarn
+
+# buildディレクトリに書き出し
+yarn build
+
+# 開発用（file watchして自動build）
+yarn start
+
+# distディレクトリにzipファイル書き出し
+yarn zip
+```
