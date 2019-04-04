@@ -47,7 +47,19 @@ let interval = setInterval(()=> {
   }
 }, 1)
 
-let code = document.createTextNode(require('./injection.js'));
+let code = document.createTextNode(`
+const STEP_SECONDS = 7
+document.addEventListener('keydown', function(e) {
+  let player = videojs.players['podcast-audio-player']
+  if(e.keyCode==37) {
+    player.currentTime(player.currentTime() - STEP_SECONDS)
+  }
+  else if(e.keyCode==39) {
+    player.currentTime(player.currentTime() + STEP_SECONDS)
+  }
+});`)
+// TODO 上記、こういう書き方で外部ファイル化できないか？
+// let code = document.createTextNode(`\`${require('./injection.js')}\``);
 let script = document.createElement('script')
 script.appendChild(code)
 window.addEventListener('load', ()=> {
