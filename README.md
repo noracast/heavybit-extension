@@ -9,6 +9,7 @@
 1. スペースキーで再生・一時停止
 2. 左矢印キーで7秒巻き戻し、右矢印キーで7秒早送り
 3. 再生スピードの変更（`1x, 1.5x, 2x`　→　`0.7x, 0.8x, 1x`）
+4. 話者の色分け
 
 機能追加の要望は[`feature request`ラベルを付きのIssue](https://github.com/noracast/heavybit-extension/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22)で受け付けます。
 
