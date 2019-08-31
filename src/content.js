@@ -56,10 +56,10 @@ document.addEventListener('keydown', function(e) {
   if(player.paused() || Boolean(e.shiftKey)){
     return
   }
-  if(e.keyCode==37) {
+  if(e.keyCode==37) { // [left arrow]
     player.currentTime(player.currentTime() - STEP_SECONDS)
   }
-  else if(e.keyCode==39) {
+  else if(e.keyCode==39) { // [right arrow]
     player.currentTime(player.currentTime() + STEP_SECONDS)
   }
 });`)
