@@ -9,12 +9,13 @@
 1. 再生スピードの変更（`1x, 1.5x, 2x`　→　`0.7x, 0.8x, 1x`）
 2. 話者の色分け
 3. キー割当
-  | Key             | Function                         |
-  |:----------------|:---------------------------------|
-  | `[Space]`       | 再生・一時停止                     |
-  | `[Left Arrow]`  | 7秒巻き戻し                       |
-  | `[Right Arrow]` | 7秒早送り                         |
-  | `s`             | イントロをスキップ（50秒時点から再生） |
+
+| Key             | Function                         |
+|:----------------|:---------------------------------|
+| `[Space]`       | 再生・一時停止                     |
+| `[Left Arrow]`  | 7秒巻戻し                       |
+| `[Right Arrow]` | 7秒早送り                         |
+| `s`             | イントロをスキップ（50秒時点から再生） |
 
 機能追加の要望は[`feature request`ラベルを付きのIssue](https://github.com/noracast/heavybit-extension/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22)で受け付けます。
 
