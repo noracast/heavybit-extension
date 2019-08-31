@@ -62,6 +62,10 @@ document.addEventListener('keydown', function(e) {
   else if(e.keyCode==39) { // [right arrow]
     player.currentTime(player.currentTime() + STEP_SECONDS)
   }
+  else if(e.keyCode==83) { // "s"
+    // Skip intro.
+    player.currentTime(50)
+  }
 });`)
 // TODO 上記、こういう書き方で外部ファイル化できないか？
 // let code = document.createTextNode(`\`${require('./injection.js')}\``);
